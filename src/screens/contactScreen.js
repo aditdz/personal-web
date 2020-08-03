@@ -1,12 +1,13 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Grid, Typography, TextField } from '@material-ui/core';
+import { Grid, Typography, TextField, Button } from '@material-ui/core';
 import Title from '../components/title';
 import { getTranslate } from '../localization/index';
 import './contact.css';
 const useStyles = makeStyles((theme) => ({
   root: {
     minHeight: '100vh',
+    padding: 15,
   },
 
   contactGrid: {
@@ -43,8 +44,7 @@ export default function ContactScreen() {
               size='medium'
               required
               id='outlined-required'
-              label='Enter your name'
-              defaultValue='name'
+              label={translate.entername}
               variant='outlined'
             />
             <TextField
@@ -53,8 +53,7 @@ export default function ContactScreen() {
               size='medium'
               required
               id='outlined-required'
-              label='Enter your email'
-              defaultValue='email'
+              label={translate.enteremail}
               variant='outlined'
             />
             <TextField
@@ -63,23 +62,27 @@ export default function ContactScreen() {
               size='medium'
               required
               id='outlined-required'
-              label='Enter your subject'
-              defaultValue='subject'
+              label={translate.entersubject}
               variant='outlined'
             />
-
             <TextField
               style={{ marginTop: 25 }}
               fullWidth
               size='medium'
               required
               id='outlined-required'
-              label='Enter your message'
-              defaultValue='message'
+              label={translate.entermessage}
               variant='outlined'
               multiline
               rows={5}
             />
+            <Button
+              style={{ display: 'flex', marginTop: 25 }}
+              variant='contained'
+              color='primary'
+            >
+              {translate.sendmessage}
+            </Button>{' '}
           </Grid>
           <Grid item xs={12} md={6} className={classes.details}></Grid>
         </Grid>

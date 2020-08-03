@@ -97,4 +97,10 @@ export default {
   ],
   contactme: 'تماس با من',
   getintouch: 'برقراری ارتباط',
+
+  entername: 'نام خود را وارد کنید',
+  enteremail: 'ایمیل خود را وارد کنید',
+  entersubject: 'موضوع را وارد کنید',
+  entermessage: 'متن پیامتان را اینجا بنویسید',
+  sendmessage: 'ارسال پیام',
 };

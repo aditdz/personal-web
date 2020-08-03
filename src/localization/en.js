@@ -99,4 +99,9 @@ export default {
   ],
   contactme: 'CONTACT ME',
   getintouch: 'Get In Touch',
+  entername: 'Enter yor name',
+  enteremail: 'Enter yor email',
+  entersubject: 'Enter yor subject',
+  entermessage: 'Enter yor message',
+  sendmessage: 'SEND MESSAGE',
 };
