@@ -68,7 +68,7 @@ export default function AboutScreen() {
   const translate = getTranslate();
   const classes = useStyles();
   return (
-    <Grid container alignItems='flex-' className={classes.root}>
+    <Grid container alignItems='flex-start' className={classes.root}>
       <Grid container item xs={12} className={classes.aboutGrid}>
         <Title title={translate.aboutme} />
         <Grid container direction='row'>

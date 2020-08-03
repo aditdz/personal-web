@@ -44,7 +44,7 @@ export default function ResumeScreen() {
   const classes = useStyles();
 
   return (
-    <Grid container alignItems='flex-' className={classes.root}>
+    <Grid container alignItems='flex-start' className={classes.root}>
       <Grid container item xs={12} className={classes.skillGrid}>
         <Title title={translate.myskills} />
         <Grid container direction='row'>

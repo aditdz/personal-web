@@ -95,4 +95,6 @@ export default {
       content: '',
     },
   ],
+  contactme: 'تماس با من',
+  getintouch: 'برقراری ارتباط',
 };

@@ -97,4 +97,6 @@ export default {
       content: '',
     },
   ],
+  contactme: 'CONTACT ME',
+  getintouch: 'Get In Touch',
 };
